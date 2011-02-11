@@ -1,0 +1,5 @@
+*~
+*.swp
+tags
+tmp/backup/*
+tmp/swap/*
