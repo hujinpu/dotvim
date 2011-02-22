@@ -104,30 +104,13 @@ au FocusLost * :wa
 inoremap <Esc> <nop>
 inoremap jj <ESC>
 
-
-if has('gui_running')
-    set guifont=Menlo:h18
-    colorscheme mustang
-    set background=dark
-
-    set go-=m
-    set go-=T
-    set go-=r
-    set go-=l
-    set go-=b
-
-    let g:sparkupExecuteMapping = '<D-e>'
-
-    highlight SpellBad term=underline gui=undercurl guisp=Orange
-else
-    set nocursorline
-endif
-
-
-
 " Rainbows!
 nmap <leader>R :RainbowParenthesesToggle<CR>
 
 " NERD Tree
 map <F2> :NERDTreeToggle<cr>
 let NERDTreeIgnore=['.vim$', '\~$', '.*\.pyc$', 'pip-log\.txt$']
+
+
+" htip : quick haskell hints at the status line
+let g:htip_bindkeys=1
