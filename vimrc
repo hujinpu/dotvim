@@ -105,10 +105,10 @@ inoremap <Esc> <nop>
 inoremap jj <ESC>
 
 " Rainbows!
-nmap <leader>R :RainbowParenthesesToggle<CR>
+noremap <leader>R :RainbowParenthesesToggle<CR>
 
 " NERD Tree
-map <F2> :NERDTreeToggle<cr>
+nnoremap <F2> :NERDTreeToggle<CR>
 let NERDTreeIgnore=['.vim$', '\~$', '.*\.pyc$', 'pip-log\.txt$']
 
 " htip : quick haskell hints at the status line
@@ -116,3 +116,9 @@ let g:htip_bindkeys=1
 
 " Ack
 nnoremap <leader>a :Ack
+
+" Tabular
+nnoremap <Leader>b= :Tabularize /=<CR>
+vnoremap <Leader>b= :Tabularize /=<CR>
+nnoremap <Leader>b: :Tabularize /:\zs<CR>
+vnoremap <Leader>b: :Tabularize /:\zs<CR>
