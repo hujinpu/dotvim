@@ -1,23 +1,26 @@
 if has('gui_running')
-    set guifont=Menlo:h18
-    colorscheme mustang
-    set background=dark
+  set guifont=Menlo:h18
+  colorscheme mustang
+  set background=dark
 
-    set go-=m
-    set go-=T
-    set go-=r
-    set go-=l
-    set go-=b
+  set go-=m
+  set go-=T
+  set go-=r
+  set go-=l
+  set go-=b
 
-    let g:sparkupExecuteMapping = '<D-e>'
+  let g:sparkupExecuteMapping = '<D-e>'
 
-    highlight SpellBad term=underline gui=undercurl guisp=Orange
+  highlight SpellBad term=underline gui=undercurl guisp=Orange
 else
-    set nocursorline
+  set nocursorline
 endif
 
 if has("gui_macvim")
-    " CommandT 
-    macmenu &File.New\ Tab key=<nop>
-    map <D-t> :CommandT<CR>
+  set fuopt+=maxhorz 
+
+  " CommandT 
+  macmenu &File.New\ Tab key=<nop>
+  map <D-t> :CommandT<CR>
+
 endif

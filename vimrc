@@ -111,6 +111,5 @@ nmap <leader>R :RainbowParenthesesToggle<CR>
 map <F2> :NERDTreeToggle<cr>
 let NERDTreeIgnore=['.vim$', '\~$', '.*\.pyc$', 'pip-log\.txt$']
 
-
 " htip : quick haskell hints at the status line
 let g:htip_bindkeys=1
