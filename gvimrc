@@ -17,6 +17,7 @@ else
 endif
 
 if has("gui_macvim")
+  " Grow to maximum horizontal size on entering fullscreen mode
   set fuopt+=maxhorz 
 
   " CommandT 
