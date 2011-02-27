@@ -22,3 +22,9 @@
 [submodule "bundle/rails"]
 	path = bundle/rails
 	url = https://github.com/tpope/vim-rails.git
+[submodule "bundle/color-sampler"]
+	path = bundle/color-sampler
+	url = https://github.com/vim-scripts/Color-Sampler-Pack.git
+[submodule "bundle/fugitive"]
+	path = bundle/fugitive
+	url = https://github.com/tpope/vim-fugitive.git
