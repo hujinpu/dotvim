@@ -2,7 +2,7 @@ if has('gui_running')
   set guifont=Menlo:h18
   "colorscheme mustang
   "set background=dark
-  colorscheme autumn2
+  "colorscheme autumn2
 
   set go-=m
   set go-=T

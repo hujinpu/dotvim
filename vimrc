@@ -68,7 +68,7 @@ set colorcolumn=85
 " Color scheme (terminal)
 syntax on
 set background=dark
-colorscheme delek
+colorscheme vividchalk
 
 nnoremap <up> <nop>
 nnoremap <down> <nop>
@@ -123,3 +123,11 @@ nnoremap <Leader>b= :Tabularize /=<CR>
 vnoremap <Leader>b= :Tabularize /=<CR>
 nnoremap <Leader>b: :Tabularize /:\zs<CR>
 vnoremap <Leader>b: :Tabularize /:\zs<CR>
+
+" mathchit adn vim-textobj-rubyblock
+runtime macros/matchit.vim
+
+" When set to 1 the error window will be automatically opened when errors are
+" detected, and closed when none are detected.
+" https://github.com/scrooloose/syntastic/blob/master/doc/syntastic.txt
+let g:syntastic_auto_loc_list=1
