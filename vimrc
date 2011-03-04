@@ -131,3 +131,6 @@ runtime macros/matchit.vim
 " detected, and closed when none are detected.
 " https://github.com/scrooloose/syntastic/blob/master/doc/syntastic.txt
 let g:syntastic_auto_loc_list=1
+
+" Gundo
+nnoremap <F5> :GundoToggle<CR>
